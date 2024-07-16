@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+}
+
+.custom-img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero {
+    width: 100%;
+    height: 75vh;
+    /* background: url("../img/don.jpg") top center; */
+    text-align: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4b7dab;
+}
+
+.chevoron {
+    color: white;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.chevoron:hover {
+    color: #d43076;
+    transform: translate(0, 30px);
+    transition: 0.8s ease-in-out;
+}
+
+.hero h2 {
+    color: white;
+    font-size: 3em;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+.hero p {
+    color: white;
+    font-size: 1em;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+h2 {
+    color: #4b7dab;
+}
+
+.custom-no {
+    background-color: #e4ebf3;
+    padding: 0.3rem;
+}
+
+.custom-resume-col {
+    font-size: 1em;
+    opacity: 0.7;
+}
+
+hr {
+    width: 5%;
+    border: 2px solid #d43076;
+    opacity: 1;
+}
+
+/* Section Portfolio */
+.tab_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab {
+    width: 20%;
+    height: 40px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.tab ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    padding: 2px 15px;
+}
+
+.tab ul li a {
+    text-decoration: none;
+    color: #5a656e;
+}
+
+.tab ul a:hover {
+    color: #d43076;
+}
+
+.card_detail {
+    width: 100%;
+    height: 320px;
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+}
+
+.card_detail img {
+    width: 100%;
+    height: 320px;
+}
+
+.card_detail:hover {
+    transform: rotateY(180deg);
+}
+
+.front_detail {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: blue;
+    color: yellow;
+}
+
+.back_detail {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background-color: #4b7dab;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.back_detail h5 {
+    font-size: 1.4em;
+    color: white;
+}
+
+.back_detail p {
+    font-size: 1em;
+    color: white;
+}
+
+.back_detail span {
+    font-size: 1.9em;
+    color: white;
+}
+
+.back_detail span i:hover {
+    color: #d43076;
+    cursor: pointer;
+}
