@@ -131,8 +131,6 @@ hr {
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    background: blue;
-    color: yellow;
 }
 
 .back_detail {
@@ -166,4 +164,30 @@ hr {
 .back_detail span i:hover {
     color: #d43076;
     cursor: pointer;
+}
+
+/* Testimonial */
+
+.test-img {
+    width: 130px;
+    height: 130px;
+    padding: 12px;
+    border: 3px solid white;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.Testimonial {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Testimonial-items {
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-size: 1.1em;
+    opacity: 0.7;
+
 }
