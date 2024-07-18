@@ -14,8 +14,6 @@ section {
 }
 
 .hero {
-    width: 100%;
-    height: 75vh;
     /* background: url("../img/don.jpg") top center; */
     text-align: center;
     object-fit: cover;
@@ -25,6 +23,11 @@ section {
     justify-content: center;
     align-items: center;
     background-color: #4b7dab;
+    width: 100%;
+    height: 75vh;
+    background: url(../img/him.jpg) top center;
+    background-size: cover;
+    padding: 0 15px;
 }
 
 .chevoron {
@@ -190,4 +193,55 @@ hr {
     font-size: 1.1em;
     opacity: 0.7;
 
+}
+
+/* Contact */
+
+.cont-icons {
+    display: flex;
+    gap: 20px;
+    font-size: 26px;
+    color: #d43076;
+}
+
+.lonely p {
+    font-size: 1em;
+}
+
+.cont-icons p {
+    font-size: 0.6em;
+    color: black;
+}
+
+.cont-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-btn {
+    background-color: #d43076;
+    color: white;
+    border-radius: 20px;
+    padding: 0.7rem;
+    text-align: center;
+    width: 40%;
+}
+
+.custom-btn:hover {
+    background-color: #d43077d0;
+    color: white;
+}
+
+/* Footer */
+.copy {
+    text-align: center;
+}
+
+.credit {
+    text-align: center;
+}
+
+.credit span {
+    color: #d43076;
+    cursor: pointer;
 }

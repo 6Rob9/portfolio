@@ -20,4 +20,4 @@ To Update project
 4. git push origin main
 
 To clone the project
-git clone link
+git clone link  
