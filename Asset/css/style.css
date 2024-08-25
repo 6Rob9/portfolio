@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Kalnia+Glaze:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Kalnia+Glaze:wght@100..700&family=Noto+Serif+Khitan+Small+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Kalnia+Glaze:wght@100..700&family=Noto+Serif+Khitan+Small+Script&family=Silkscreen:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +16,7 @@ section {
     width: 100%;
     height: 100%;
 }
+
 
 .hero {
     /* background: url("../img/don.jpg") top center; */
@@ -31,7 +36,7 @@ section {
 }
 
 .chevoron {
-    color: white;
+    color: var(--bs-green);
     cursor: pointer;
     font-size: 50px;
 }
@@ -43,20 +48,39 @@ section {
 }
 
 .hero h2 {
-    color: white;
+    color: var(--bs-green);
     font-size: 3em;
-    font-weight: 400;
-    font-family: "Poppins", sans-serif;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 700;
 }
 
 .hero p {
-    color: white;
+    color: var(--bs-green);
     font-size: 1em;
-    font-weight: 400;
-    font-family: "Poppins", sans-serif;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 700;
 }
 
+/* Navbar */
 
+.custom-navbar {
+    height: 60px;
+    position: sticky !important;
+    top: 0;
+    z-index: 1020;
+    background-color: #ffffff;
+}
+
+.custom-navbarUL a {
+    color: black !important;
+    font-size: 1em;
+}
+
+.custom-navbarUL a:hover {
+    color: #d43076 !important;
+}
+
+/* Navbar */
 
 h2 {
     color: #4b7dab;
